@@ -2,7 +2,7 @@ import React from "react";
 import {Button as ButtonPaper} from "react-native-paper";
 const Button = props => {
   return (
-    <ButtonPaper mode={"contained"}>
+    <ButtonPaper mode={"contained"} {...props}>
       {props.children}
     </ButtonPaper>
   );
